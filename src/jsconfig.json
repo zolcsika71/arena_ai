@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": true,
+    "paths": {
+      "game/*": [
+        "./typings/game/*"
+      ],
+      "arena/*": [
+        "./typings/season_alpha/capture_the_flag/*"
+      ]
+    }
+  },
+  "screepsArena": {
+    "typingsVersion": "1.0.1",
+    "disableAutoUpdate": false
+  }
+}
